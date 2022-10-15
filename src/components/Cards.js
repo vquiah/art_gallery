@@ -4,7 +4,7 @@ const Cards =  ({ image }) => {
     const tags = image.tags.split(',');
   
     return (
-      <div className="max-w-sm rounded-b-3xl rounded-t-3xl overflow-hidden shadow-lg bg-black">
+      <div className="max-w-sm rounded-b-3xl rounded-t-3xl overflow-hidden shadow-inner bg-black">
         <img src={image.webformatURL} alt="" className="w-full"/>
         <div className="px-6 py-4">
           <div className="font-bold text-blue-300 text-xl mb-2">
